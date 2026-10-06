@@ -1,0 +1,16 @@
+{
+  "name": "estetica-derma-solucao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site da Estética Derma Solução — estética facial regenerativa em Florianópolis.",
+  "license": "UNLICENSED",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "HTTPS_HEADERS=0 node --watch server/server.js",
+    "test": "node --test test/*.test.js"
+  }
+}
